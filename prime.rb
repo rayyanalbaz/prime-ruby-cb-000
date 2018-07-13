@@ -17,6 +17,13 @@ def prime?(number)
         end
         i=i+1
       end
+      while i*i < i*number
+        if number % i != 0
+          return true
+        end
+        i=i+1
+      end
 
 
 end
+
