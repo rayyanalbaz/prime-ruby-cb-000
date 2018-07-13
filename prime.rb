@@ -17,7 +17,7 @@ def prime?(number)
         end
         i=i+1
       end
-      while i*i < i*number
+      while i
         if number % i != 0
           return true
         end
