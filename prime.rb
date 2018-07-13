@@ -4,13 +4,13 @@ def prime?(number)
       if number < 2
         return false
       end
-      while i < number/10 
+      while i < number/10
       until number % i == 0
         i = i+1
       end
       return true
     end
     return false
-    
+
 
 end
