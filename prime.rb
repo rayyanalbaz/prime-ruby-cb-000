@@ -7,9 +7,10 @@ def prime?(number)
 
       if number == 3
         return true
-        if number == 2
+      end
+      if number == 2
           return true
-
+      end
 
     while i
       if number % i == 0
