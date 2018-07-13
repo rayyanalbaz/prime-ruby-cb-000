@@ -5,10 +5,10 @@ def prime?(number)
 
   if number % i == 0
   return  true
-else
+else 
   i=i+1
 end
-return false
+
 end
 
 end
