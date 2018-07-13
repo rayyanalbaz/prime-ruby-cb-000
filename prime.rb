@@ -5,11 +5,11 @@ def prime?(number)
         return false
       end
 
-    while i
+    while i < 1000
       if number % i == 0
         return true
       end
       i=i+1
     end
-    return false
+  
 end
