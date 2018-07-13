@@ -5,7 +5,7 @@ def prime?(number)
         return false
       end
 
-    while i < 1000
+    while i 
       if number % i == 0
         return false
       else
