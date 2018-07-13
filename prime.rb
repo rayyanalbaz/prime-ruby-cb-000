@@ -4,7 +4,6 @@ def prime?(number)
       if number < 2
         return false
       end
-
       if number == 3
         return true
       end
@@ -12,5 +11,12 @@ def prime?(number)
           return true
       end
 
+      while i*i < i*number 
+        if number % i == 0 
+          return false 
+        end
+        i=i+1
+      end
+      
 
 end
