@@ -12,13 +12,21 @@ def prime?(number)
           return true
       end
 
-    while i
-      if number % i == 0
-        return false
-      else
-        return true
-    end
-    i=i+1
-  end
+      if n % 2 == 0:
+            return False
+        if n % 3 == 0:
+            return False
+    
+        i = 5
+        w = 2
+    
+        while i * i <= n:
+            if n % i == 0:
+                return False
+    
+            i += w
+            w = 6 - w
+    
+        return True
 
 end
