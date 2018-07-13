@@ -5,9 +5,10 @@ def prime?(number)
         return false
       end
 
-      if number % i == 0
-        return  true
+
+      until number % i == 0
+        i = i+1
       end
-      i=i+1
+      return true 
 
 end
