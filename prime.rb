@@ -4,12 +4,12 @@ def prime?(number)
       if number < 2
         return false
       end
-      
+
       until number % i == 0
         i = i+1
       end
       return true
-    
+
 
 
 
