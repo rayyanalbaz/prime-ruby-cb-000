@@ -26,4 +26,3 @@ def prime?(number)
 
 
 end
-
