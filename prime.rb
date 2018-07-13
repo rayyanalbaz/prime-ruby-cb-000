@@ -15,7 +15,7 @@ def prime?(number)
         if number % i == 0
           return false
         end
-        return false
+        return true 
         i=i+1
       end
 
