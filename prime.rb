@@ -22,7 +22,7 @@ def prime?(number)
         i = 5
         w = 2
 
-        while i * i <= n
+        while i * i <= number
             if number % i == 0
                 return false
               end
