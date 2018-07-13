@@ -1,8 +1,13 @@
 # Add  code here!
 def prime?(number)
-  if number % 2 == 0
+  i = 2
+  while number > 1
+
+  if number % i == 0
   return  true
   end
+end
+return false
 
 
 end
