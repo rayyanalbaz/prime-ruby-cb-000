@@ -8,7 +8,7 @@ def prime?(number)
       until number % i == 0
         i = i+1
       end
-    
+
 
 
 
