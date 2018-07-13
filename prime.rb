@@ -31,5 +31,7 @@ def prime?(number)
             w = 6 - w
 
         return true
+      end
+      
 end
 end
